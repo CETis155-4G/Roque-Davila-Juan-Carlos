@@ -1,8 +1,9 @@
-<HTML>
+<html>
 <title>
 Bitacoras
 </title>
 
+<section class="wrap">
   <head>
    <link rel="stylesheet" href="styles/style.css">
    <header id="main-header">
@@ -11,53 +12,59 @@ Bitacoras
            <span class="site-name">Bitacoras</span>
        </a> <!-- / #logo-header -->
 
-       <nav>
-           <ul>
-               <li><a href="">Login</a></li>
-               <li><a href="">Registro</a></li>
-           </ul>
-       </nav><!-- / nav -->
-
 </header>
-
-
+     <br>
+     <br>
      <h2>
      <p ALIGN=right>02/02/2023</p>
      </h2>
         <p>
            <strong>HTML</strong>
         </p> 
-               <p>
-                Emos tomado un vrebe repaso de como se utiliza <strong>HTML</strong> lo cual ya aviamos visto en una anterior clase, aparte de eso vimos mas funciones de esta herramienta y se explico mas sus verciones, al igual que tuvimos una vrebe explicacion de que es HTML 5.
+               <p> 
+               <img src="data:image/png;base64,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" align="right">Emos tomado un vrebe repaso de como se utiliza <strong>HTML</strong> lo cual ya aviamos visto en una anterior clase, aparte de eso vimos mas funciones de esta herramienta y se explico mas sus verciones, al igual que tuvimos una vrebe explicacion de que es HTML 5.
                </p>
-                <p>
-                <img src="C:\Users\Computo 2\Desktop\Bitacora\Imagenes\Html.jpg" lign="right">
-                </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <h2>
       <p ALIGN=right>03/02/2023</p>
       </h2>
       <p>
          <strong>GitHub</strong>
       </p>
-             <p>
-             Este dia volvimos a utilizar GitHUb y aprendimos mas de como es que funciona, tambien aprendimos como es que vamos a estar enviando nuestros trabajos y como vamos a estar creando ramificaciones de nuestro codigo.
-             </p>
-              <p>
-              <img src="C:\Users\Computo 2\Desktop\Bitacora\Imagenes\GitHub.jpg" lign="right">
-              </p>
+         <p> 
+         <img src="data:image/png;base64,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" align="right">Este dia volvimos a utilizar GitHUb y aprendimos mas de como es que funciona, tambien aprendimos como es que vamos a estar enviando nuestros trabajos y como vamos a estar creando ramificaciones de nuestro codigo.
+         </p>
 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <h2>
       <p ALIGN=right>09/02/2023</p>
       </h2>
       <p>
          <strong>CSS</strong>
       </p>
-             <p>
-             Despues de varios dias de utilizar HTML eh intentar diseñar una buena pagina web con sus funciones, hoy se nos enseño a utilizar CSS el cual es un lenguaje con muchas herramientas para poder diseñar nuestra pagina.
+            <p>
+              <img src="data:image/png;base64,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" align="right">Despues de varios dias de utilizar HTML eh intentar diseñar una buena pagina web con sus funciones, hoy se nos enseño a utilizar CSS el cual es un lenguaje con muchas herramientas para poder diseñar nuestra pagina.
             </p>
-              <p>
-              <img src="C:\Users\Computo 2\Desktop\Bitacora\Imagenes\CSS.jpg" lign="right">
               </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <h2>
       <p ALIGN=right>20/02/2023</p>
       </h2>
@@ -65,11 +72,42 @@ Bitacoras
          <strong>Login</strong>
       </p>
              <p>
-              Hemos echo el intento de una pagina para iniciar sesion, agregandole cajas de texto y botones a su ves que aprendimos a utilizar los hipervinculos con html.
-             </p>
-             <p>
-             <img src="C:\Users\Computo 2\Desktop\Bitacora\Imagenes\log.jpg" lign="right">
+               <img src="data:image/jpeg;base64,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" align="right"">Hemos echo el intento de una pagina para iniciar sesion, agregandole cajas de texto y botones a su ves que aprendimos a utilizar los hipervinculos con html.
              </p>
 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>
+      <p ALIGN=right>23/02/2023</p>
+      </h2>
+      <p>
+         <strong>Pros y Contras</strong>
+      </p>
+            <p>
+               <img src="http://blog.scielo.org/es/wp-content/uploads/sites/3/2019/04/vantagens-desvantagens-opr.png" align="right"">Analizamos la situacion de como es que iria a funcionar la aplicacion que estamos por generar junto con los profesores Martin y Gerardo, tuvimos que intentar crear una idea de como se administraria nuestra oagina y que funciones podria tener pero tambien tuvimos que sacar cuales eran los pros y contras de esa idea.
+            </p>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>
+      <p ALIGN=right>27/02/2023</p>
+      </h2>
+      <p>
+         <strong>El repaso</strong>
+      </p>
+               <p>
+               <img src="https://png.pngtree.com/png-clipart/20210129/ourmid/pngtree-review-reading-students-png-image_2828986.jpg" align="right"">Tuvimos un repaso de lo quen hemos visto en este paarcial ya que se aproximan los examenes, asi que el profesor Gerardo nis hizo una ide ade lo que vendra en elexamen el cual vael el 80% de nuestra calificaion tal ves repruebe pero me gusto mucho aprender esto que estoy haciendo.
+               </p>
+            </section>
    </body>
-</HTML>
+</html>
