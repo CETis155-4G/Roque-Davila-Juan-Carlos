@@ -1,0 +1,244 @@
+
+.centrado {
+  text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	background: #050505; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+#main-header {
+	background: #333;
+	color: rgb(0, 0, 0);
+	height: 80px;
+}	
+	#main-header a {
+		color: rgb(0, 0, 0);
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Helvetica, Arial, sans-serif;
+		color: rgb(0, 0, 0);
+		background: #f2f2f2; 
+		font-size: 1em;
+		line-height: 1.5em;
+		
+		padding-top: 80px;
+	}
+	
+	h1 {
+		font-size: 2.3em;
+	  line-height: 1.3em;
+		margin: 15px 0;
+		text-align: center;
+		font-weight: 300;
+	}
+	
+	p {
+		margin: 0 0 1.5em 0;
+	}
+	
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	
+	/************ 
+	//-------------------------------
+	// CABECERA
+	//-------------------------------
+	************/
+	#main-header {
+		background: #5b1f00;
+		color: white;
+		height: 100px;
+		
+		width: 100%;
+		left: 0;
+		top: 0;
+		position: fixed;
+	}	
+		#main-header a {
+			color: white;
+		}
+		
+		
+	/*
+	 * Logo
+	 */
+	#logo-header {
+		float: left;
+		padding: 15px 0 0 20px;
+		text-decoration: none;
+	}
+		#logo-header:hover {
+			color: #0b76a6;
+		}
+		
+		#logo-header .site-name {
+			display: block;
+			font-weight: 700;
+			font-size: 1.2em;
+		}
+		
+		#logo-header .site-desc {
+			display: block;
+			font-weight: 300;
+			font-size: 0.8em;
+			color: #999;
+		}
+		
+	
+	/*
+	 * Navegación
+	 */
+	nav {
+		float: right;
+	}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			padding-right: 20px;
+		}
+		
+			nav ul li {
+				display: inline-block;
+				line-height: 80px;
+			}
+				
+				nav ul li a {
+					display: block;
+					padding: 0 10px;
+					text-decoration: none;
+				}
+				
+					nav ul li a:hover {
+						background: #0b76a6;
+					}
+
+					#main-footer {
+						background: #333;
+						color: white;
+						text-align: center;
+						padding: 20px;
+						margin-top: 40px;
+					}
+						#main-footer p {
+							margin: 0;
+						}
+						
+						#main-footer a {
+							color: white;
+						}
+						body {
+							margin: 0;
+							padding: 0;
+							font-family: Helvetica, Arial, sans-serif;
+							color: #666;
+							background: #f2f2f2; 
+							font-size: 1em;
+							line-height: 1.5em;
+							
+							padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+						}
+
+
+
+
+          html{
+            font-family: system-ui;
+          }
+          
+          .wrap{
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+
+          .column-3{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 1rem;
+            row-gap: 1rem;
+          }
+          
+          .menu-restaurante{
+            color: rgb(0, 0, 0);  
+            text-align: center;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+            display: flex;
+            flex-flow: column;
+          }
+          
+          hr{
+            background: #FFC300;
+            height: 2.5px;
+            width: 30px;
+            border: none;
+          }
+          
+          .precio-menu{
+            font-weight: bold;
+          }
+          
+          .precio-menu span{
+            font-size: 1rem;
+            color: #FFC300;
+		  }
+
+img{
+	width: 80px;
+	height: 70px;
+	margin: auto;
+	border: 1px solid #000;
+}
